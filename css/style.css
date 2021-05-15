@@ -1,0 +1,88 @@
+.header
+{
+  background-color:#282e34;
+  color:white;
+  text-align:center;
+  background-attachment: scroll;
+}
+body,html{
+  height:100%;
+  margin:0;
+  font-size: 16px;
+  font-family: "lato",serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  background-color: #282e34;
+  /*color:#666;*/
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7,.pimg8{
+  position:relative;
+  opacity: 0.90;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.pimg1{
+  background-image:url('../images/tajmahal.jpg');
+  background-size: cover;
+  min-height: 120%;
+}
+
+.pimg2{
+  background-image:url('../images/christ.jpg');
+  background-size: cover;
+  min-height: 100%;
+}
+
+.pimg3{
+  background-image:url('../images/chichen.jpg');
+  background-size: cover;
+  min-height: 100%;
+}
+
+.pimg4{
+  background-image:url('../images/pyramid.jpg');
+  background-size: cover;
+  min-height: 100%;
+}
+
+.pimg5{
+  background-image:url('../images/great wall.jpg');
+  background-size: cover;
+  min-height: 100%;
+}
+
+.pimg6{
+  background-image:url('../images/machu.jpg');
+  background-size: cover;
+  min-height: 100%;
+}
+
+.pimg7{
+  background-image:url('../images/colo.jpg');
+  background-size: cover;
+  min-height: 100%;
+}
+
+.pimg8{
+  background-image:url('../images/petra.jpg');
+  background-size: cover;
+  min-height: 100%;
+
+/*
+.section{
+  text-align: center;
+  padding: 50px 100px;
+
+}
+*/
+}
+.section-dark{
+  background-color: #282e34;
+  color: #ddd;
+  text-align: center;
+  padding: 50px 100px;
+  font-family: arial,helvetica,sans-serif;
+}
